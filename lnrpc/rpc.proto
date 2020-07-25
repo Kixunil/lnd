@@ -941,7 +941,7 @@ message VerifyMessageResponse {
 }
 
 message ConnectPeerRequest {
-    // Lightning address of the peer, in the format `<pubkey>@host`
+    // Lightning address of the peer
     LightningAddress addr = 1;
 
     /* If set, the daemon will attempt to persistently connect to the target
